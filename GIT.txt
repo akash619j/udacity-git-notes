@@ -38,3 +38,15 @@ will not be visible!
 Go to the directory first
 git init
 when we run git init 0/no commits are created at all you have to do that manually.
+
+12.To push a repo:
+git add origin(remote) URLofrepo
+
+13.To push all files:
+git push origin master
+
+14.Fork:forking means copying someone else's repo to your own github acct without copying into
+your local machine first and then pulling it into your own computer.
+
+15.To pull a repo:
+git pull origin master
