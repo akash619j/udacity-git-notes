@@ -1,4 +1,4 @@
-
+These are the commands uptil lesson 2 from udacity.
 1.git log --stat
 gives statistics about which files were changed in each commit
 
