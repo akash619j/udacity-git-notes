@@ -1,0 +1,40 @@
+
+1.git log --stat
+gives statistics about which files were changed in each commit
+
+2.git diff commitid1 commitid2 compares the two commits
+
+3.git clone: creates clone of repository
+command: git clone URL
+
+4.Getting Colored Output
+To get colored diff output, run git config --global color.ui auto
+
+7.Using git log and git diff
+As a reminder, running git log will show a list of the recent commits with information about them, including commit IDs.
+Running git diff followed by two commit IDs will compare the two versions of the code in those commits.
+
+8.git log vs git log --stat
+git log --stat also display no of insertions and deletions as comapred to previous commit.git log only
+shows commit message,author,commitid
+
+9.Git Errors and Warnings Solution
+Should not be doing an octopus
+Octopus is a strategy Git uses to combine many different versions of code together.
+This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit,
+which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD.
+Git just warns you so that you’ll realize you’re doing it.
+
+10.git checkout: restores previous version or previous commit
+command: git checkout commitid
+after doing it u get warning that u r in detached HEAD state.
+NOW AFTER GOING TO OLDER COMMIT U TYPE COMMAND git log u ll get older one as MOST RECENT commit and commits after that
+will not be visible!
+
+11.To create/intialize a git repository command:
+Go to the directory first
+git init
+when we run git init 0/no commits are created at all you have to do that manually.
